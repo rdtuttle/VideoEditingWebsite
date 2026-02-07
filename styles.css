@@ -182,11 +182,13 @@ main {
 
 .hero-card {
   background: var(--card);
-  padding: 28px;
-  border-radius: var(--radius);
+  padding: 20px;
+  border-radius: 16px;
   box-shadow: var(--shadow);
   position: relative;
   overflow: hidden;
+  justify-self: end;
+  max-width: 320px;
 }
 
 .profile-photo {
@@ -200,16 +202,17 @@ main {
 }
 
 .hero-card h2 {
-  font-size: 1.2rem;
-  margin-bottom: 16px;
+  font-size: 1rem;
+  margin-bottom: 12px;
 }
 
 .steps {
   display: grid;
-  gap: 12px;
+  gap: 10px;
   list-style: none;
   color: var(--muted);
   margin-bottom: 18px;
+  font-size: 0.95rem;
 }
 
 .text-link {
@@ -437,6 +440,9 @@ textarea:focus {
 .testimonials .card {
   border: 1px solid rgba(20, 20, 20, 0.08);
   box-shadow: none;
+  background: linear-gradient(140deg, rgba(255, 255, 255, 0.98), rgba(245, 245, 242, 0.85));
+  position: relative;
+  overflow: hidden;
 }
 
 .quote p {
@@ -449,6 +455,20 @@ textarea:focus {
   margin-top: 12px;
   color: var(--muted);
   font-weight: 600;
+}
+
+.quote::before {
+  content: "“”";
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  color: rgba(20, 20, 20, 0.08);
+}
+
+.testimonials .grid {
+  gap: 18px;
 }
 
 .footer-links {
