@@ -445,6 +445,28 @@ textarea:focus {
   overflow: hidden;
 }
 
+.source-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(20, 20, 20, 0.1);
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: var(--muted);
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.source-badge .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #00b22d;
+  box-shadow: 0 0 0 4px rgba(0, 178, 45, 0.12);
+}
+
 .quote p {
   font-size: 1.05rem;
   color: var(--ink);
