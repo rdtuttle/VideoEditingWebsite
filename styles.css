@@ -293,6 +293,17 @@ main {
   backdrop-filter: blur(8px);
 }
 
+.ai-featured {
+  grid-column: 1 / -1;
+  width: 100%;
+  max-width: 1120px;
+  justify-self: center;
+}
+
+.ai-featured .video-embed {
+  aspect-ratio: 16 / 9;
+}
+
 .video-card.wide {
   grid-column: 1 / -1;
 }
@@ -576,8 +587,8 @@ textarea:focus {
   padding: 20px 6vw 4px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 18px;
+  justify-content: flex-start;
+  gap: 12px;
 }
 
 .top-brand-bar p {
@@ -591,12 +602,12 @@ textarea:focus {
 .top-logos {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 10px;
   flex-wrap: wrap;
 }
 
 .top-logos img {
-  height: 30px;
+  height: 48px;
   width: auto;
   object-fit: contain;
   filter: saturate(0.95) contrast(1.05);
