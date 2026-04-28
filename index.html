@@ -3,17 +3,17 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Short-Form Video Edits</title>
+    <title>Russ Edits | Short-Form Video Editor</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="grain" aria-hidden="true"></div>
+    <div class="site-noise" aria-hidden="true"></div>
     <header class="site-header">
       <a class="logo" href="index.html">Russ Edits</a>
       <nav class="nav">
@@ -21,46 +21,75 @@
         <a href="about.html">About</a>
         <a href="ai-videos.html">AI Videos</a>
         <a href="contact.html">Contact</a>
-        <a href="https://vimeo.com/russtuttle" target="_blank" rel="noreferrer">Video Examples</a>
+        <a href="https://vimeo.com/russtuttle" target="_blank" rel="noreferrer">Portfolio</a>
       </nav>
     </header>
 
     <main class="home-main">
-      <section class="top-brand-bar">
-        <p>Trusted by brands such as...</p>
-        <div class="top-logos">
-          <img src="assets/refresh-sports-logo.png" alt="Refresh Sports logo" />
-          <img src="assets/warehouse-cinemas-logos.png" alt="Warehouse Cinemas logo" />
-        </div>
-      </section>
-
-      <section class="home-hero">
+      <section class="hero-shell">
         <div class="hero-copy">
-          <p class="eyebrow">Russ Edits</p>
-          <h1>Short-Form Edits with a Personal Touch</h1>
-          <p class="lead">
-            Scroll-stopping vertical edits for brands, businesses, and creators.
-            Built for retention, conversions, and repeatable growth.
+          <p class="eyebrow">Short-form video editor</p>
+          <h1>Premium short-form edits that hook fast and feel on-brand.</h1>
+          <p class="lead lead-wide">
+            I help brands, businesses, and creators turn raw footage into sharp,
+            scroll-stopping videos built for Reels, TikTok, Shorts, and paid social.
           </p>
-          <div class="cta-row">
-            <a class="btn primary" href="contact.html">Inquire for Rates</a>
-            <a class="btn ghost" href="https://vimeo.com/russtuttle" target="_blank" rel="noreferrer">Watch Portfolio</a>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="contact.html">Inquire for rates</a>
+            <a class="btn btn-secondary" href="#featured-work">Watch portfolio</a>
+          </div>
+          <div class="hero-trust">
+            <div class="trust-pill">
+              <strong>10M+</strong>
+              <span>Views generated</span>
+            </div>
+            <div class="trust-pill">
+              <strong>4.9★</strong>
+              <span>Fiverr rating</span>
+            </div>
+            <div class="trust-pill">
+              <strong>24h</strong>
+              <span>Rush option</span>
+            </div>
           </div>
         </div>
-        <aside class="hero-proof">
-          <img class="hero-image" src="assets/dunes.jpg" alt="Profile photo" />
-          <div class="proof-stats">
-            <div><strong>10M+</strong><span>Views Generated</span></div>
-            <div><strong>4.9★</strong><span>Fiverr Rating</span></div>
-            <div><strong>24h</strong><span>Rush Delivery</span></div>
+
+        <aside class="hero-panel">
+          <div class="hero-panel-media">
+            <img src="assets/dunes.jpg" alt="Russ standing on dunes" />
+          </div>
+          <div class="hero-panel-body">
+            <div class="hero-panel-topline">
+              <span>Trusted by brands such as</span>
+              <div class="inline-logos">
+                <img src="assets/refresh-sports-logo.png" alt="Refresh Sports logo" />
+                <img src="assets/warehouse-cinemas-logos.png" alt="Warehouse Cinemas logo" />
+              </div>
+            </div>
+            <div class="hero-panel-grid">
+              <article>
+                <p class="mini-label">What clients book me for</p>
+                <h2>Hooks, pacing, captions, strategy.</h2>
+              </article>
+              <ul class="hero-points">
+                <li>High-retention editing for short-form platforms</li>
+                <li>Viral trend awareness without losing brand clarity</li>
+                <li>Long-form clipping and recurring content workflows</li>
+              </ul>
+            </div>
           </div>
         </aside>
       </section>
 
-      <section class="section hero-videos" id="reel">
-        <div class="section-heading">
-          <h2>Featured Work</h2>
-          <p>Recent short-form examples optimized for Reels, TikTok, and Shorts.</p>
+      <section class="section featured-work" id="featured-work">
+        <div class="section-heading section-heading-row">
+          <div>
+            <p class="eyebrow">Portfolio videos</p>
+            <h2>Recent short-form edits</h2>
+          </div>
+          <p class="section-copy">
+            Full-size vertical examples clients can review immediately without leaving the site.
+          </p>
         </div>
         <div class="video-grid">
           <article class="video-card">
@@ -81,52 +110,99 @@
         </div>
       </section>
 
-      <section class="section sleek-grid">
-        <div class="section-heading">
-          <h2>What You Get</h2>
+      <section class="section offer-grid">
+        <div class="section-heading section-heading-row">
+          <div>
+            <p class="eyebrow">Why clients book</p>
+            <h2>Editing that looks polished and performs.</h2>
+          </div>
+          <p class="section-copy">
+            The offer is simple: cleaner creative, faster delivery, and a stronger chance your content actually holds attention.
+          </p>
         </div>
-        <div class="grid">
-          <article class="card">
+        <div class="grid feature-grid">
+          <article class="feature-card">
+            <span class="feature-index">01</span>
             <h3>24-hour rush options</h3>
-            <p>Fast turnaround when timing is critical.</p>
+            <p>Fast turnarounds when timing matters, without making the edit feel rushed.</p>
           </article>
-          <article class="card">
+          <article class="feature-card">
+            <span class="feature-index">02</span>
             <h3>Hook + content ideation</h3>
-            <p>Viral-first concepts aligned with your brand and audience.</p>
+            <p>Viral-minded hooks, framing, and concepts tailored to your audience and goals.</p>
           </article>
-          <article class="card">
-            <h3>High-retention editing</h3>
-            <p>Captions, SFX, and pacing designed to keep viewers watching.</p>
+          <article class="feature-card">
+            <span class="feature-index">03</span>
+            <h3>High-retention edits</h3>
+            <p>Captions, sound design, cut rhythm, and pacing tuned for watch-through and replays.</p>
           </article>
-          <article class="card">
+          <article class="feature-card">
+            <span class="feature-index">04</span>
             <h3>Platform-native delivery</h3>
-            <p>Reels, TikTok, Shorts, and long-form clipping workflows.</p>
+            <p>Exports ready for Reels, TikTok, Shorts, and clipped moments from long-form content.</p>
           </article>
         </div>
       </section>
 
-      <section class="section testimonials">
-        <div class="section-heading">
-          <h2>Fiverr Reviews</h2>
-          <p>Verified screenshots from public Fiverr reviews.</p>
-          <a class="source-badge" href="https://www.fiverr.com/follow_the_lite/edit-your-youtube-short-video" target="_blank" rel="noreferrer" aria-label="Fiverr gig reviews">
+      <section class="section process-band">
+        <div class="process-copy">
+          <p class="eyebrow">How it works</p>
+          <h2>Simple process. Stronger output.</h2>
+        </div>
+        <div class="process-steps">
+          <article class="process-step">
+            <span>01</span>
+            <h3>Send footage and goals</h3>
+            <p>I align the edit to your audience, offer, and content style before the first cut.</p>
+          </article>
+          <article class="process-step">
+            <span>02</span>
+            <h3>Build the strongest hook</h3>
+            <p>The opening seconds, caption treatment, and pacing are shaped for retention.</p>
+          </article>
+          <article class="process-step">
+            <span>03</span>
+            <h3>Deliver ready to publish</h3>
+            <p>You get polished short-form assets that feel platform-native and brand-aware.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section testimonials-shell">
+        <div class="section-heading section-heading-row">
+          <div>
+            <p class="eyebrow">Social proof</p>
+            <h2>Real Fiverr review screenshots</h2>
+          </div>
+          <a class="source-badge" href="https://www.fiverr.com/follow_the_lite/edit-your-youtube-short-video" target="_blank" rel="noreferrer">
             <span class="dot"></span>
-            View on Fiverr
+            View Fiverr profile
           </a>
         </div>
         <div class="review-stack">
-          <figure class="review-shot tilt-1"><img src="assets/fiverr-review-1.png" alt="Fiverr review screenshot 1" /></figure>
-          <figure class="review-shot tilt-2"><img src="assets/fiverr-review-2.png" alt="Fiverr review screenshot 2" /></figure>
-          <figure class="review-shot tilt-3"><img src="assets/fiverr-review-3.png" alt="Fiverr review screenshot 3" /></figure>
-          <figure class="review-shot tilt-4"><img src="assets/fiverr-review-4.png" alt="Fiverr review screenshot 4" /></figure>
-          <figure class="review-shot tilt-5"><img src="assets/fiverr-review-5.png" alt="Fiverr review screenshot 5" /></figure>
-          <figure class="review-shot tilt-6"><img src="assets/fiverr-review-6.png" alt="Fiverr review screenshot 6" /></figure>
+          <figure class="review-shot review-shot-large"><img src="assets/fiverr-review-2.png" alt="Fiverr review screenshot 2" /></figure>
+          <figure class="review-shot"><img src="assets/fiverr-review-4.png" alt="Fiverr review screenshot 4" /></figure>
+          <figure class="review-shot"><img src="assets/fiverr-review-3.png" alt="Fiverr review screenshot 3" /></figure>
+          <figure class="review-shot"><img src="assets/fiverr-review-1.png" alt="Fiverr review screenshot 1" /></figure>
+          <figure class="review-shot"><img src="assets/fiverr-review-5.png" alt="Fiverr review screenshot 5" /></figure>
+          <figure class="review-shot"><img src="assets/fiverr-review-6.png" alt="Fiverr review screenshot 6" /></figure>
+        </div>
+      </section>
+
+      <section class="section final-cta">
+        <div>
+          <p class="eyebrow">Ready to start</p>
+          <h2>If your footage has potential, I can help shape it into content worth posting.</h2>
+        </div>
+        <div class="final-cta-actions">
+          <p>Reach out with your goal, timeline, and platform. I’ll reply with next steps and pricing.</p>
+          <a class="btn btn-primary" href="contact.html">Start a project</a>
         </div>
       </section>
     </main>
 
     <footer class="footer">
-      <p>Available for new projects in February 2026.</p>
+      <p>Russ Edits · US-based · Available for remote projects</p>
       <div class="footer-links">
         <a href="about.html">About</a>
         <a href="ai-videos.html">AI Videos</a>

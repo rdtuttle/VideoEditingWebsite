@@ -1,7 +1,9 @@
 const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 if (!prefersReduced) {
-  const revealTargets = document.querySelectorAll(".section, .hero-card, .card, .contact-card, .page-hero");
+  const revealTargets = document.querySelectorAll(
+    ".hero-shell, .section, .page-hero, .feature-card, .contact-card, .story-card, .profile-frame, .video-card, .final-cta"
+  );
   revealTargets.forEach((el) => el.classList.add("reveal"));
 
   const observer = new IntersectionObserver(

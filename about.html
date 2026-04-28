@@ -7,13 +7,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="grain" aria-hidden="true"></div>
+    <div class="site-noise" aria-hidden="true"></div>
     <header class="site-header">
       <a class="logo" href="index.html">Russ Edits</a>
       <nav class="nav">
@@ -21,57 +21,102 @@
         <a href="about.html" class="active">About</a>
         <a href="ai-videos.html">AI Videos</a>
         <a href="contact.html">Contact</a>
-        <a href="https://vimeo.com/russtuttle" target="_blank" rel="noreferrer">Video Examples</a>
+        <a href="https://vimeo.com/russtuttle" target="_blank" rel="noreferrer">Portfolio</a>
       </nav>
     </header>
 
     <main class="page">
-      <section class="page-hero split">
-        <div>
-          <p class="eyebrow">About Me</p>
-          <h1>Short-form edits with a personal touch.</h1>
+      <section class="page-hero page-hero-split">
+        <div class="page-copy">
+          <p class="eyebrow">About</p>
+          <h1>Creative work built from editing skill, platform instinct, and real-world perspective.</h1>
           <div class="about-copy">
             <p class="lead">
-              Hi, I'm Russ. A former English teacher in Japan turned digital nomad, Vipassana medition practitioner, and short-form video editor/social media manager. I love to create, test out the latest video editing trends, and recently exploring AI filmmaking. I'd love to hear about what you're working on and help you to achieve all your content creation goals
+              Hi, I'm Russ. A former English teacher in Japan turned digital nomad, Vipassana
+              meditation practitioner, and short-form video editor and social media manager.
+              I love to create, test the latest video editing trends, and I have recently been exploring AI filmmaking.
+              I'd love to hear what you're building and help you hit your content creation goals.
             </p>
           </div>
         </div>
-        <div class="profile-frame">
-          <img class="profile-photo large" src="assets/dunes.jpg" alt="Profile photo" />
-          <p class="muted">Short-form editor, nomad, and story-first collaborator.</p>
-        </div>
+        <aside class="profile-frame profile-frame-polished">
+          <img class="profile-photo profile-photo-large" src="assets/dunes.jpg" alt="Russ standing on dunes" />
+          <div class="profile-meta">
+            <strong>5+ years</strong>
+            <span>Freelance editing while living and working abroad</span>
+          </div>
+        </aside>
       </section>
 
-      <section class="section">
+      <section class="section story-grid">
+        <article class="story-card story-card-wide">
+          <p class="eyebrow">Background</p>
+          <h2>My work is shaped by travel, teaching, and paying close attention to people.</h2>
+          <p>
+            I have spent years building a digital nomad life while editing content for brands,
+            companies, entrepreneurs, and artists. That path took me across multiple countries,
+            through years of teaching English overseas, into communities like the Vietnam Nomad Festival,
+            and into volunteer work with Peace Boat.
+          </p>
+          <p>
+            That mix of structure and curiosity shows up in the edits. I care about how content feels,
+            how fast it earns attention, and whether it reflects the person or brand behind it.
+          </p>
+        </article>
+        <article class="story-card">
+          <p class="eyebrow">What I focus on</p>
+          <ul class="detail-list">
+            <li>Creating a stronger brand image through consistent visual language</li>
+            <li>Maintaining a steady flow of content for platform algorithms</li>
+            <li>Writing and styling captions that support clarity and retention</li>
+            <li>Building content strategy around hooks, trends, and audience behavior</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section value-grid">
         <div class="section-heading">
-          <h2>What I deliver</h2>
-          <p>Clean, high-retention edits built for Reels, TikTok, and Shorts.</p>
+          <p class="eyebrow">What I deliver</p>
+          <h2>Short-form support beyond the cut itself.</h2>
         </div>
-        <div class="grid">
-          <article class="card">
+        <div class="grid feature-grid">
+          <article class="feature-card">
+            <span class="feature-index">01</span>
             <h3>Brand image clarity</h3>
-            <p>Consistent visuals and tone that make your content recognizable.</p>
+            <p>Content that feels recognizable, clean, and aligned with your tone.</p>
           </article>
-          <article class="card">
-            <h3>Consistent output</h3>
-            <p>Repeatable workflows that keep the algorithm fed.</p>
+          <article class="feature-card">
+            <span class="feature-index">02</span>
+            <h3>Consistent content output</h3>
+            <p>Repeatable editing workflows that keep your channel active and useful to the algorithm.</p>
           </article>
-          <article class="card">
-            <h3>Content Ideas + Strategy</h3>
-            <p>Readable captions paired with content strategy that drives action.</p>
+          <article class="feature-card">
+            <span class="feature-index">03</span>
+            <h3>Captions + pacing</h3>
+            <p>Readable captions and editing rhythm built to increase watch-through.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-index">04</span>
+            <h3>Content strategy</h3>
+            <p>Hooks, creative angles, and trend awareness that make each video more purposeful.</p>
           </article>
         </div>
       </section>
 
-      <section class="section callout">
-        <h2>Ready to collaborate?</h2>
-        <p>Let’s build short-form edits that feel intentional and perform.</p>
-        <a class="btn primary" href="contact.html">Contact Me</a>
+      <section class="section final-cta">
+        <div>
+          <p class="eyebrow">Let’s collaborate</p>
+          <h2>If you want content that feels more intentional, I’m happy to help shape it.</h2>
+        </div>
+        <div class="final-cta-actions">
+          <p>Send over your footage, goals, or current bottleneck and I’ll help map out the next move.</p>
+          <a class="btn btn-primary" href="contact.html">Contact me</a>
+        </div>
       </section>
     </main>
 
     <footer class="footer">
-      <p>Based in the US · Remote-friendly · February 2026 availability</p>
+      <p>Russ Edits · Short-form editor and creative collaborator</p>
       <div class="footer-links">
         <a href="index.html">Home</a>
         <a href="ai-videos.html">AI Videos</a>
