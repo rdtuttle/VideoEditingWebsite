@@ -283,31 +283,41 @@ main,
   box-shadow: var(--shadow-lg);
 }
 
-.visual-frame-profile {
-  width: min(78%, 360px);
-  background: rgba(255, 255, 255, 0.06);
-}
-
-.visual-frame-profile img {
-  aspect-ratio: 4 / 4.6;
-  object-fit: cover;
-  filter: saturate(0.85) contrast(1.08);
-}
-
 .visual-logos {
   display: grid;
-  gap: 18px;
-  padding: 26px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  padding: 18px;
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.05);
   box-shadow: var(--shadow-lg);
 }
 
-.visual-logos img {
-  max-height: 132px;
+.brand-logo-tile {
+  min-height: 132px;
+  display: grid;
+  place-items: center;
+  padding: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.brand-logo-wide {
+  grid-column: 1 / -1;
+  min-height: 112px;
+}
+
+.brand-logo-tile img {
+  max-height: 86px;
+  max-width: 100%;
   width: auto;
   object-fit: contain;
+}
+
+.brand-logo-wide img {
+  max-height: 78px;
 }
 
 .scroll-panels {
@@ -1186,8 +1196,17 @@ h3 {
     width: min(100%, 380px);
   }
 
-  .visual-frame-profile {
-    width: min(72%, 280px);
+  .visual-logos {
+    grid-template-columns: 1fr;
+  }
+
+  .brand-logo-wide {
+    grid-column: auto;
+  }
+
+  .brand-logo-tile,
+  .brand-logo-wide {
+    min-height: 112px;
   }
 
   .scroll-panel h2 {
